@@ -1,0 +1,361 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+}
+.logo{
+  width: 130px;
+}
+
+#nav-side{
+  margin-left: 55%;
+}
+/* 
+#navbar-col{
+  background: rgb(134,235,100);
+  background: linear-gradient(0deg, rgba(134,235,100,1) 2%, rgba(220,223,218,1) 77%);
+} */
+
+#navbar-col{
+  background-color: #ede8f5 !important;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-item{
+  font-size: 20px !important;
+  gap: 20px !important;
+}
+
+
+/* banner */
+.banner-con{
+  width: 100%;
+  
+}
+.banner-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.banner-col1{
+ margin-top: 150px;
+ margin-left: 30px;
+  width: 54%;
+}
+.banner-col2{
+  width: 44%;
+}
+.ban-head{
+  font-size: 40px;
+  color: #7e1d52;
+  font-weight: 900;
+}
+.ban-head span{
+  font-size: 45px;
+  color: #afd275;
+}
+.banner-col1 li{
+  list-style: none;
+  letter-spacing: 2px;
+  line-height: 35px;
+  margin-left: 40px;
+}
+.hire{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.hire-span{
+  background-color: #66fcf1;
+  padding: 5px;
+  border-radius: 10px;
+  color: #683b2b;
+  
+}
+body{
+  background-color: #ede8f5 !important;
+}
+
+/* trainers */
+
+/* body{
+  background: #f1f1f1;
+} */
+
+.aoe-title{
+  text-transform: uppercase;
+      text-align: center;
+    font-weight: 600;
+    color: #ef5e5e;
+}
+
+.line{
+    width: 75px;
+    height: 5px;
+    background-color: #f62459;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+/*=================================================== TESTIMONIALS SECTION ==========================================================*/
+
+.testimonials-section{
+  padding: 50px 0px 50px 0px;
+}
+
+
+/*-------------------------------------------------------- Carousel ----------------------------------------------------------*/
+.col-center {
+  margin: 0 auto;
+  float: none !important;
+}
+.carousel {
+  margin: 50px auto;
+  padding: 0 170px;
+}
+.carousel .item {
+  color: #999;
+  font-size: 14px;
+    text-align: center;
+  overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+  width: 170px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+.carousel .img-box img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: 380px;
+  border-radius: 50%;
+}
+.carousel .testimonial {
+  padding: 30px 0 10px;
+  color: #555;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-title{
+  margin: 25px;
+  color: #333;
+}
+
+.carousel-line{
+  height: 1px;
+  width: 600px;
+  background-color: #cecece;
+  margin: auto;
+}
+
+.carousel .overview { 
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.carousel .overview b {
+  color: #7AA641;
+}
+
+.company-name{
+    color: #555;
+}
+
+.carousel .carousel-control {
+  width: 0px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+  background: none;
+}
+.carousel-control i {
+    font-size: 30px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: #000;
+}
+.carousel .carousel-indicators {
+  bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  margin: 1px 3px;
+  border-radius: 50%;
+}
+.carousel-indicators li { 
+  background: #999;
+  border-color: transparent;
+  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {  
+  background: #555;   
+  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+.testimonial span{
+    font-size: 62px;
+    position: absolute;
+    top: 57%;
+    left: 0;
+    font-family: 'Emblema One', cursive;
+    color: #333;
+}
+
+.carousel-control-prev span{
+    position: absolute;
+    font-size: 14px;
+    top: 29%;
+    left: 20px;
+    color: #89c4f4;
+    text-shadow: none;
+    font-weight: bolder;
+}
+
+.carousel-control-next span{
+    position: absolute;
+    font-size: 14px;
+    top: 29%;
+    right: 20px;
+    color: #89c4f4;
+    text-shadow: none;
+    font-weight: bolder;
+}
+
+
+/* why-choose */
+.why-head{
+  text-align: center;
+  font-weight: 700;
+  color: #7e1d52;
+  margin: 50px;
+}
+
+.why-con{
+  width: 100%;
+}
+.why-row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.why-col{
+  width: 48%;
+}
+
+.best{
+  margin-top: 80px;
+}
+
+
+/* frontend */
+
+#Front{
+  display: none;
+} 
+#Home {
+  display: block; /* Home is visible by default */
+ 
+}
+.home-container{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.text{
+  width: 30%;
+}
+.subject{
+  width: 50%;
+  display: flex;
+}
+
+.subject a{
+text-decoration: none;
+color: white;
+}
+.subject li{
+  list-style: none;
+  padding: 30px;
+}
+
+.subject li:hover{
+color: rgb(126, 255, 100);
+}
+
+.acco{
+  margin-left: 20px;
+}
+.accordion-body strong{
+font-size: 24px;
+margin-left: 10%;
+color: rgb(74, 74, 255);
+padding: 20px;
+}
+.accordion-body li{
+list-style: none;
+margin-left: 30%;
+padding: 10px;
+font-size: 17px;
+color: #1d1b31;
+}
+
+.front-head{
+margin-left: 10%;
+color: rgb(55, 30, 21);
+padding: 30px;
+}
+
+.front-para{
+letter-spacing: 1px;
+}
+
+#skills{
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+}
+
+.skill-con1{
+width: 60%;
+}
+.skill-con2{
+width: 30%;
+}
+
+.certifi{
+width: 50%;
+margin-left: 25%;
+}
+.card-title{
+   padding-left: 35%;
+   font-size: 35px;
+   font-weight: 600;
+  
+}
+
+.card-text{
+  text-align: center;
+  font-size: 20px;
+}
